@@ -14,65 +14,104 @@ const App = () => {
       <i className='bx bxs-hot icon1'></i>
       <i className='bx bxs-hot icon2'></i>
       <i className='bx bxs-hot icon3'></i>
-      {/* Agrega más iconos aquí */}
     </div>
     <img className='img_pilar rengoku' src={images.rengoku} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>
     ,
-    <div className='Container'>
-    <div className='Cuadro'>
-      <div className='fireEffect'></div>
-      <img className='img_pilar rengoku' src={images.rengoku} alt="" />
-      <h3>Slide 1</h3>
+<div className='Container'>
+  <div className='Cuadro'>
+    <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
     </div>
-  </div>,
-  <div className='Container'>
+    <img className='img_pilar rengoku' src={images.gyomei} alt="" />
+    <h3>Slide 1</h3>
+  </div>
+</div>,
+<div className='Container'>
   <div className='Cuadro'>
     <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
+    </div>
+    <img className='img_pilar rengoku' src={images.mitsuri} alt="" />
+    <h3>Slide 1</h3>
+  </div>
+</div>,
+<div className='Container'>
+  <div className='Cuadro'>
+    <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
+    </div>
+    <img className='img_pilar rengoku' src={images.obanai} alt="" />
+    <h3>Slide 1</h3>
+  </div>
+</div>,
+<div className='Container'>
+  <div className='Cuadro'>
+    <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
+    </div>
     <img className='img_pilar rengoku' src={images.rengoku} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
-  <div className='Container'>
+<div className='Container'>
   <div className='Cuadro'>
     <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
+    </div>
     <img className='img_pilar rengoku' src={images.rengoku} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
-  <div className='Container'>
+<div className='Container'>
   <div className='Cuadro'>
     <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
+    </div>
     <img className='img_pilar rengoku' src={images.rengoku} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
-  <div className='Container'>
+<div className='Container'>
   <div className='Cuadro'>
     <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
+    </div>
     <img className='img_pilar rengoku' src={images.rengoku} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
-  <div className='Container'>
+<div className='Container'>
   <div className='Cuadro'>
     <div className='fireEffect'></div>
-    <img className='img_pilar rengoku' src={images.rengoku} alt="" />
-    <h3>Slide 1</h3>
-  </div>
-</div>,
-  <div className='Container'>
-  <div className='Cuadro'>
-    <div className='fireEffect'></div>
-    <img className='img_pilar rengoku' src={images.rengoku} alt="" />
-    <h3>Slide 1</h3>
-  </div>
-</div>,
-  <div className='Container'>
-  <div className='Cuadro'>
-    <div className='fireEffect'></div>
+    <div className='iconGroup'>
+      <i className='bx bxs-hot icon1'></i>
+      <i className='bx bxs-hot icon2'></i>
+      <i className='bx bxs-hot icon3'></i>
+    </div>
     <img className='img_pilar rengoku' src={images.rengoku} alt="" />
     <h3>Slide 1</h3>
   </div>
