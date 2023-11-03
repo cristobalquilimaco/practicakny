@@ -15,24 +15,26 @@ const Carousel = () => {
     setCurrentIndex(prevIndex);
   };
 
-console.log(goToNextSlide);
+  console.log(goToNextSlide);
+
   return (
     <div className="carousel">
       <div className="slider">
-        <div
-          className="slide-container" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+        <div className="slide-container" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
           {items?.map((item, id) => (
             <div key={id} className="slide">
-              <img className='img_pilar' src={item[0].image} alt="" />
+              <article className='person_card'>
+                <img className='img_pilar' src={item[0].image} alt="" />
+                <h1 className='name'>{item[0].tipo}</h1>
+              </article>
             </div>
           ))}
         </div>
       </div>
       <section className='btn'>
-      <button className="prev-button" onClick={goToPrevSlide}>Prev</button>
-      <button className="next-button" onClick={goToNextSlide}>Next</button>
+        <button className="prev-button" onClick={goToPrevSlide}>Prev</button>
+        <button className="next-button" onClick={goToNextSlide}>Next</button>
       </section>
-      
     </div>
   );
 };
