@@ -11,11 +11,9 @@ const Carousel = () => {
   };
   
   const goToPrevSlide = () => {
-    const prevIndex = (currentIndex - 1 + items?.length) % items.length;
+    const prevIndex = (currentIndex - 1 + items.length) % items.length;
     setCurrentIndex(prevIndex);
   };
-
-  console.log(goToNextSlide);
 
   return (
     <div className="carousel">
@@ -24,8 +22,8 @@ const Carousel = () => {
           {items?.map((item, id) => (
             <div key={id} className="slide">
               <article className='person_card'>
-                <img className='img_pilar' src={item[0].image} alt="" />
-                <h1 className='name'>{item[0].tipo}</h1>
+                <img className='img_pilar' src={item.image} alt="" />
+                <h1 className='name'>{item.tipo}</h1>
               </article>
             </div>
           ))}
