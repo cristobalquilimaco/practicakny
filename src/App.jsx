@@ -64,7 +64,7 @@ const App = () => {
       <i className='bx bxs-hot icon2'></i>
       <i className='bx bxs-hot icon3'></i>
     </div>
-    <img className='img_pilar rengoku' src={images.rengoku} alt="" />
+    <img className='img_pilar rengoku' src={images.sanemi} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
@@ -76,7 +76,7 @@ const App = () => {
       <i className='bx bxs-hot icon2'></i>
       <i className='bx bxs-hot icon3'></i>
     </div>
-    <img className='img_pilar rengoku' src={images.rengoku} alt="" />
+    <img className='img_pilar rengoku' src={images.shinobu} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
@@ -88,7 +88,7 @@ const App = () => {
       <i className='bx bxs-hot icon2'></i>
       <i className='bx bxs-hot icon3'></i>
     </div>
-    <img className='img_pilar rengoku' src={images.rengoku} alt="" />
+    <img className='img_pilar rengoku' src={images.tokito} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
@@ -100,7 +100,7 @@ const App = () => {
       <i className='bx bxs-hot icon2'></i>
       <i className='bx bxs-hot icon3'></i>
     </div>
-    <img className='img_pilar rengoku' src={images.rengoku} alt="" />
+    <img className='img_pilar rengoku' src={images.tomioka} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
@@ -112,7 +112,7 @@ const App = () => {
       <i className='bx bxs-hot icon2'></i>
       <i className='bx bxs-hot icon3'></i>
     </div>
-    <img className='img_pilar rengoku' src={images.rengoku} alt="" />
+    <img className='img_pilar rengoku' src={images.uzui} alt="" />
     <h3>Slide 1</h3>
   </div>
 </div>,
