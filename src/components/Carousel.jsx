@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import './Carousel.css';
+import items from '../utils/items';
 
-const Carousel = ({ items }) => {
+const Carousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   const goToNextSlide = () => {
@@ -10,20 +11,19 @@ const Carousel = ({ items }) => {
   };
   
   const goToPrevSlide = () => {
-    const prevIndex = (currentIndex - 1 + items.length) % items.length;
+    const prevIndex = (currentIndex - 1 + items?.length) % items.length;
     setCurrentIndex(prevIndex);
   };
 
+console.log(goToNextSlide);
   return (
     <div className="carousel">
       <div className="slider">
         <div
-          className="slide-container"
-          style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
-          {items.map((item, index) => (
-            <div key={index} className="slide">
-              {item}
+          className="slide-container" style={{ transform: `translateX(-${currentIndex * 100}%)` }}>
+          {items?.map((item, id) => (
+            <div key={id} className="slide">
+              <img className='img_pilar' src={item[0].image} alt="" />
             </div>
           ))}
         </div>
